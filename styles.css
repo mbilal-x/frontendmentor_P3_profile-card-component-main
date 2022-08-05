@@ -20,7 +20,7 @@ body{
 
 /* card  */
 .card__container{
-    min-width: 325px;
+    min-width: 330px;
     border-radius: 18px;
     overflow: hidden;
     background-color: white;
@@ -40,13 +40,13 @@ body{
 
 .card__profile{
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 /* stats grid area  */
 .card__stats__grid{
     border-top: 1px solid hsla(0, 0%, 59%, 0.213);
-    padding: 15px 20px;
+    padding: 24px 20px;
 
 /* flex layout  */
     /* display: flex;
@@ -60,7 +60,7 @@ body{
     
 }
 
-h1{
+.stats__item__title, .card__profile__title {
     margin-bottom: 5px;
 
     font-size: 18px;
@@ -68,21 +68,21 @@ h1{
     color: hsl(229, 23%, 23%);
 }
 
-h1 .card__title--age{
+.card__title--age{
     color: hsl(227, 10%, 46%);
     margin: 10px;
     font-weight: 400;
 
 }
 
-h2{
+.card__profile__location, .stats__item__subtext{
     font-size: 0.85rem;
     margin-top: 0px;
     color: hsl(227, 10%, 46%);
     font-weight: 400;
 }
 
-h2.stats__item__subtext{
+.stats__item__subtext{
     letter-spacing: 1.5px;
     font-size: 0.65rem;
 }
