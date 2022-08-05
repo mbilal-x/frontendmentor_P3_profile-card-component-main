@@ -62,7 +62,6 @@ body{
 
 .stats__item__title, .card__profile__title {
     margin-bottom: 5px;
-
     font-size: 18px;
     font-weight: 700;
     color: hsl(229, 23%, 23%);
@@ -85,6 +84,10 @@ body{
 .stats__item__subtext{
     letter-spacing: 1.5px;
     font-size: 0.65rem;
+}
+
+.stats__item span{
+    display: block;
 }
 
 
