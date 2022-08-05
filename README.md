@@ -48,3 +48,14 @@ I failed to design the body background. I tried using position css property but 
 
 - Website - [Muhammad Bilal](mohammadbilal.me)
 - Frontend Mentor - [@mbilal-x](https://www.frontendmentor.io/profile/mbilal-x)
+
+
+
+
+
+problem solution:
+
+background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -790px left -450px, bottom -820px right -460px;
+    background-size: 80%, 80%;
