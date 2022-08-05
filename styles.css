@@ -1,0 +1,98 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* custom css */
+svg-top{
+    position: absolute;
+    top: -50%;
+    left:-50%;
+    z-index: -1;
+}
+svg-bottom{
+    position: absolute;
+    bottom: -50%;
+    right:-50%;
+    z-index: -1;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+
+    background-color:hsl(185, 75%, 39%) ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* card  */
+.card__container{
+    min-width: 325px;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card__banner{
+    height: 140px;
+    background-image: url('./images/bg-pattern-card.svg');
+}
+
+/* card profile  */
+.card__profile__image{
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.card__profile{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* stats grid area  */
+.card__stats__grid{
+    border-top: 1px solid hsla(0, 0%, 59%, 0.213);
+    padding: 15px 20px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+h1{
+    margin-bottom: 5px;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+h1 .card__title--age{
+    color: hsl(227, 10%, 46%);
+    margin: 10px;
+    font-weight: 400;
+
+}
+
+h2{
+    font-size: 0.85rem;
+    margin-top: 0px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+h2.stats__item__subtext{
+    letter-spacing: 1.5px;
+    font-size: 0.65rem;
+}
+
+
+
+
